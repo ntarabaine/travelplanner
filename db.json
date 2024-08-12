@@ -1,0 +1,84 @@
+{
+  "viagens": [
+    {
+      "id": "1",
+      "nome": "Praia",
+      "data_inicio": "2024-08-10",
+      "data_fim": "2024-08-20",
+      "cidade": "Rio de Janeiro",
+      "estado": "RJ",
+      "pais": "Brasil",
+      "lembretes": [
+        {
+          "id": 1,
+          "texto": "Comprar passagens",
+          "concluido": true,
+          "hidden": true
+        },
+        {
+          "id": 2,
+          "texto": "Arrumar as malas",
+          "concluido": false,
+          "hidden": false
+        }
+      ],
+      "despesas": [
+        {
+          "id": 1,
+          "data": "2024-08-10",
+          "descricao": "Passagens de avião",
+          "valor": 500
+        },
+        {
+          "id": 2,
+          "descricao": "Hotel",
+          "data": "2024-08-10",
+          "valor": 1000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Montanha",
+      "data_inicio": "2024-09-05",
+      "data_fim": "2024-09-15",
+      "cidade": "Campos do Jordão",
+      "estado": "SP",
+      "pais": "Brasil",
+      "lembretes": [
+        {
+          "id": 1,
+          "texto": "Reservar cabine",
+          "concluido": true,
+          "hidden": false
+        },
+        {
+          "id": 3,
+          "texto": "Levar agasalhos",
+          "concluido": false,
+          "hidden": true
+        },
+        {
+          "id": 4,
+          "texto": "Verificar previsão do tempo",
+          "concluido": false,
+          "hidden": true
+        }
+      ],
+      "despesas": [
+        {
+          "id": 1,
+          "descricao": "Combustível",
+          "data": "2024-09-07",
+          "valor": 150
+        },
+        {
+          "id": 2,
+          "data": "2024-09-07",
+          "descricao": "Aluguel de cabine",
+          "valor": 850
+        }
+      ]
+    }
+  ]
+}
